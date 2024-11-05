@@ -2,7 +2,7 @@ import { createClient } from 'redis';
 
 // Create and initialize the Redis client
 const redis = createClient({
-  url: 'redis://localhost:6379' // Default params
+  url: 'redis://localhost:6379' // Default params, redis[s]://[[username][:password]@][host][:port][/db-number]
 });
 
 try {
