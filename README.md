@@ -4,8 +4,8 @@ Applicazione per il test in Node.js di Lottomatica. Prevede degli endpoint per l
 L'applicazione utilizza Express.js per istanziare un server ed esporre i 2 endpoint API.
 Gli endpoint esposti saranno:
 
-[GET] `/users/id`: Recupera i dati dell'utente da Redis o MySQL e li memorizza nella cache.
-[POST] `/users`: Aggiunge un nuovo utente a MySQL e lo memorizza in Redis. I parametri accettati sono `username` ed `email`
+- [GET] `/users/id`: Recupera i dati dell'utente da Redis o MySQL e li memorizza nella cache.
+- [POST] `/users`: Aggiunge un nuovo utente a MySQL e lo memorizza in Redis. I parametri accettati sono `username` ed `email`
 
 L'ambiente utilizzato è Linux.
 
