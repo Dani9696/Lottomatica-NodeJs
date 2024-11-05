@@ -31,12 +31,12 @@ node app.js
 ## Test dell'applicazione
 Una volta avviato il server, è possibile testare l'applicazione come segue (supponendo l'applicazione sia partita in localhost sulla porta 3000):
 
-### POST /users/
+#### POST /users/
 ```bash
 curl -X POST http://localhost:3000/users -H "Content-Type: application/json" -d '{"username": "username_example", "email": "email@example.com"}'
 ```
 
-### GET /users/id
+#### GET /users/id
 ```bash
 curl http://localhost:3000/users/1
 ```
